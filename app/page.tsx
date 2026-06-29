@@ -1,3 +1,5 @@
+import Catalog from "@/components/Catalog";
+
 export default function Page() {
   return (
     <main className="min-h-screen">
@@ -34,6 +36,9 @@ export default function Page() {
           </div>
         ))}
       </section>
+
+      {/* CATALOG */}
+      <Catalog />
 
       {/* HOW IT WORKS */}
       <section className="bg-gray-50 py-24 px-6">
